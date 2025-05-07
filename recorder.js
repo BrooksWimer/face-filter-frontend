@@ -7,7 +7,7 @@ const spinner = document.getElementById("uploadSpinner");
 let mediaRecorder;
 let recordedChunks = [];
 
-const BACKEND_URL = "https://face-filter-backend-58mje.ondigitalocean.app"; // DigitalOcean backend URL
+const BACKEND_URL = "https://orca-app-idpho.ondigitalocean.app"; // DigitalOcean backend URL
 
 startButton.addEventListener("click", () => {
   recStart.disabled = false;
